@@ -1,0 +1,292 @@
+/* CSS Document for Stark Marketing Digital Services
+font family used
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+font-weights:
+light - 300
+regular = 400
+bold - 700
+black - 900
+ */
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+position:static;
+font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+hr{
+  border: 0.5px solid #fff;
+}
+
+
+
+/* Navigator Section */
+.navbar {
+  padding: 30px 0 30px;
+}
+
+.stark-logo {
+  height: 80px;
+  padding-right: 15px;
+}
+
+.navbar-brand-text {
+  float: right;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+
+
+/* Title Section */
+.section-container {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.heading {
+  font-size: 3.5rem;
+  padding:50px 30px 0 0;
+}
+
+.title-image{
+  position: relative;
+  left: 50px;
+  bottom: 40px;
+  width: 500px;
+}
+
+/* Profile Section */
+.profile {
+  padding: 70px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.profile-fluid {
+  background-color: #458CD4;
+}
+
+.profile-title {
+  padding: 20px 50px;
+}
+
+.profile-icon {
+  font-size: 7rem;
+}
+
+.profile-div {
+  padding: 50px 0 ;
+}
+
+.profile-title {
+  padding-top: 20px;
+  font-size: 3.5rem;
+}
+
+.profile-div p {
+  font: 1rem;
+  color: #eaeaea;
+  padding: 0 50px;
+}
+
+/* Services Section */
+.services-section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.services-title {
+  margin-bottom: 50px;
+}
+
+.services-header {
+  font-size: 3rem;
+}
+
+.services-card {
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.card-header {
+  background-color: #458CD4;
+  color: #fff;
+  padding:6%;
+}
+
+
+/* Contact Section */
+.contact-section {
+  background: #3484C6;
+  text-align: center;
+}
+
+.contact-header{
+  color: #fff;
+  padding: 40px 40px 15px 40px;
+}
+
+.newsletter-fname, .newsletter-lname {
+  display: inline-block;
+  border-radius: 7px;
+  width: 25%;
+}
+
+
+.newsletter-email {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 7px;
+}
+
+
+.contact-btn {
+  color: #3484C6;
+  margin-bottom: 50px;
+}
+
+.footer{
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.msg-filler{
+  height: 73vh;
+}
+
+
+/* Media Queries */
+@media (max-width:1024px){
+
+  /* Title Section */
+  .section-container {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 3rem;
+    padding:0;
+  }
+
+  .title-image{
+    margin:0;
+    position: static;
+    width: 100%;
+  }
+
+  /* Profile Section */
+  .profile {
+    padding: 30px 0;
+  }
+
+  .profile-title {
+    padding: 20px 10px;
+  }
+
+  .profile-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .profile-icon {
+    font-size: 5.5rem;
+  }
+
+  .profile-title {
+    padding-top: 20px;
+    font-size: 2.5rem;
+  }
+
+  .profile-div p {
+    font: 1.5rem;
+  }
+
+
+  .services-card {
+    height: 100%;
+  }
+
+  .msg-filler{
+    height: 80vh;
+  }
+
+  .btn-back{
+    background-color: #458CD4;
+  }
+}
+
+
+@media (max-width:450px){
+  .stark-logo {
+    height: 50px;
+    padding-right: 5px;
+  }
+
+  .navbar-brand-text {
+    font-size: 1rem;
+  }
+
+
+  /* Title Section */
+  .section-container {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 2rem;
+    padding:0;
+  }
+
+
+    .title-image{
+      position: static;
+      width: 100%;
+    }
+
+    .profile-title h2 {
+      font-size: 1.5rem;
+    }
+
+    .services-card {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .contact-header {
+      font-size: 1.5rem;
+    }
+
+  .newsletter-email {
+    width: 70%;
+  }
+
+  .msg-filler{
+    height: 70vh;
+  }
+
+}
